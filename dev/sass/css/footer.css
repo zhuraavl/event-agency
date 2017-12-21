@@ -1,0 +1,10 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 50vh;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  background: #555;
+  text-align: center; }
+/*# sourceMappingURL=footer.css.map */

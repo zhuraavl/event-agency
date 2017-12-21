@@ -1,0 +1,447 @@
+
+@import "variables/color.sass"
+@import "variables/media.sass"
+@import "variables/typography.sass"
+@import "variables/space.sass"
+@import "variables/utils.sass"
+@import "variables/control.sass"
+@import "variables/button.sass"
+@import "variables/css-class.sass"
+@import "../media/fonts/font.css"
+
+
+
+
+// vendor
+@import "vendor/normalize.css"
+
+// http://flexboxgrid.com
+@import "vendor/flexboxgrid.min.css"
+
+// elements
+@import "elements/header.sass"
+@import "elements/footer.sass"
+
+
+//page
+@import "page/projects.sass" 
+@import "page/services.sass" 
+@import "page/contact.sass" 
+
+
+// Main
+body
+  font-size: 16px
+  height: 100vh
+  position: relative
+  background: #000
+  color: #fff
+  font-family: 'GT America Lite'
+  -webkit-font-smoothing: antialiased
+  overflow: hidden
+  &.load
+    overflow: visible
+a
+  color: $gold
+  text-decoration: none
+  &:hover
+    opacity: .8
+    
+section
+  z-index: 10
+  
+  
+.hero
+  position: relative
+  height: 100vh
+  display: flex
+  align-content: center
+  z-index: 3
+
+
+  
+  
+a.insta-header
+  position: absolute
+  display: block
+  width: 100%
+  height: 100px
+  background: rgba(0, 0, 0, 0.43)
+  padding: 32px 20px 0
+  padding-left: 70px
+  font-family: $bold
+  text-decoration: none
+  font-size: 12px
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%)
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%)
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%)
+  transition: all .3s ease-in-out
+  .img
+    position: absolute
+    left: 25px
+    top: 25px
+    width: 30px
+    height: 30px
+    border-radius: 100%
+    background-size: cover
+    background-position: center  
+  span:last-child
+    padding-left: 1em
+    font-weight: 100
+    font-family: $lite
+    font-size: 14px
+  
+a.twitter-header
+  position: absolute
+  display: block
+  width: 100%
+  height: 80px
+  background: rgba(0, 0, 0, 0.43)
+  padding: 20px 20px 0
+  padding-left: 30px
+  color: #fff
+  font-family: $bold
+  text-decoration: none
+  font-size: 12px
+  background: rgba(0, 0, 0, 0.5)
+  transition: all .3s ease-in-out  
+  span
+    padding-right: 1em
+    font-weight: 100
+    font-family: $lite
+    font-size: 14px
+    &:first-child
+      font-family: $bold
+    &:last-child
+      display: block
+      margin-top: 5px
+    
+
+  
+.emoji-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-position: 50% 50%
+  z-index: 15
+  visibility: hidden
+  opacity: 0
+  transition: all .2s
+.page-bottom
+  position: relative
+  background: #000
+  padding-top: 50px
+  .lets-talk
+    text-align: center
+    margin-bottom: 100px
+    a
+      display: block
+      img
+        width: 65px
+        margin: 1em auto
+      span
+        display: block
+        font-size: 50px
+  p
+    text-align: center
+    font-size: 24px
+    font-weight: 100
+  .pic-section
+    display: block
+    position: relative
+    height: 375px
+    overflow: hidden
+    @include mobil
+      height: 275px
+  a.pic
+    position: absolute
+    display: block
+    bottom: -35%
+    background-size: cover
+    background-position: center
+    transition: all .5s ease-in-out
+    @include mobil
+      bottom: -35%
+    &:after
+      content: ''
+      position: absolute
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      background: #000
+      transition: all .5s ease-in-out
+      display: block
+      opacity: .7
+    
+    &:nth-child(1)
+      left: 0
+      width: 15%
+      height: 300px
+      z-index: 5
+      @include mobil
+        width: 30%
+        height: 200px
+    &:nth-child(2)
+      left: 15%
+      width: 20%
+      height: 350px
+      z-index: 4
+      @include mobil
+        display: none
+    &:nth-child(3)
+      left: 0
+      right: 0
+      margin: auto
+      width: 30%
+      height: 450px
+      z-index: 3
+      @include mobil
+        width: 60%
+        height: 300px
+    &:nth-child(4)
+      right: 15%
+      width: 20%
+      height: 350px
+      z-index: 4
+      @include mobil
+        display: none
+    &:nth-child(5)
+      right: 0
+      width: 15%
+      height: 300px
+      z-index: 5
+      @include mobil
+        width: 30%
+        height: 200px
+    &:hover
+      transform: scale(1.1) translateY(0px)
+      &:after
+        opacity: 0
+      a.insta-header
+        opacity: 1
+  
+  &.bottom
+    .pic
+      &:after
+        opacity: .8
+      
+      
+
+
+.big-pic
+  position: relative
+  background: #000
+  img
+    max-width: 100%
+    width: 100%
+  
+.fixed-hero.main
+  position: fixed
+  height: 100vh
+  width: 100%
+  display: flex
+  align-content: center
+  z-index: 3
+  .text
+    max-width: 700px
+    margin: auto
+    text-align: center
+    transition-delay: .5s
+    transition: all .6s ease-in-out
+    transform: scale(.9) translateY(50px)
+    @include mobil
+      padding: 0 75px
+    p
+      font-size: 18px
+      color: #fff
+      @include mobil
+        font-size: 12px
+      &.small
+        font-size: 12px
+        letter-spacing: 2px
+        text-transform: uppercase
+        padding: 0
+        margin: 2em 0 0
+    h4
+      font-size: 24px
+      font-weight: 100	
+      color: #fff
+      @include mobil
+        font-size: 16px
+      
+.load
+  .fixed-hero.main
+    .text
+      transform: scale(1) translateY(0)
+
+      
+      
+.service-main
+  background: #000
+  position: relative
+  padding-top: 200px
+  @include mobil
+    padding-top: 100px
+  .col-md-12
+    text-align: center
+    @include mobil
+      padding: 0 25px
+    p
+      font-size: 18px
+      margin-bottom: 50px
+    a, span
+      display: inline-block
+      font-size: 42px
+      @include mobil
+        font-size: 32px
+    span
+      padding-right: .5em
+    h4
+      font-size: 24px
+      font-weight: 100
+      margin-top: 55px
+      @include mobil
+        margin-top: 25px
+        font-size: 22px
+      
+  .row
+    padding-bottom: 50px
+  .titles
+    text-align: right
+    padding-right: 50px
+    p
+      font-size: 22px
+      margin: 0
+  .names
+    padding-left: 50px
+    a
+      display: block
+      font-size: 18px
+      margin-bottom: .5em
+    
+  .stories
+    padding-top: 100px
+    position: relative
+    &:after
+      content: ''
+      width: 1px
+      height: 20px
+      background: #fff
+      left: 0
+      right: 0
+      top: 50px
+      display: block
+      margin: auto
+      position: absolute
+    .story-pic
+      height: 650px
+      width: 100%
+      margin: auto
+      background-size: cover
+      position: relative
+      overflow: hidden
+      @include mobil
+        width: 80%
+        height: 450px
+        margin-top: 75px
+        margin-bottom: 25px
+      &:after
+        content: ''
+        position: absolute
+        width: calc(50% - 10px)
+        left: 10px
+        top: 10px
+        height: 3px
+        background: #fff
+        border-radius: 5px
+        z-index: 1
+      &:before
+        content: ''
+        position: absolute
+        width: calc(50% - 10px)
+        right: 10px
+        top: 10px
+        height: 3px
+        background: #fff
+        border-radius: 5px
+        z-index: 1
+      .insta-header
+        opacity: 1
+        font-size: 16px
+        padding-left: 65px
+        color: #fff
+        .img
+          width: 40px
+          height: 40px
+          left: 10px
+      
+          
+      .story-video
+        position: absolute
+        top: 0
+        left: 0
+        width: 1200px
+        height: 100%
+        video
+          position: absolute
+          width: 100%
+          height: 100%
+          z-index: 0
+          bottom: 0
+          top: 50%
+          left: 50%
+          transform: translate(-78%,-50%)
+      
+          
+      &.first
+        .story-video
+          video
+            transform: translate(-73%,-50%)
+        &:before
+          background: #999
+        
+          
+        
+    .central-block
+      padding-top: 50px
+      text-align: center
+      font-size: 22px
+      img
+        width: 30px
+        display: inline-block
+        margin: 1em
+        cursor: pointer
+        transition: opacity .3s
+        &.aemoji
+          width: 200px
+          margin: auto
+          display: block
+        &:hover
+          opacity: .5
+        &:active + .emoji-overlay
+          opacity: 1
+          visibility: visible
+  
+    
+        
+        
+        
+  
+  
+  
+  
+.no-video .video-container video, .touch .video-container video
+  display: none
+
+.no-video .video-container .poster, .touch .video-container .poster
+  display: block !important
+
+
+  
+    
+    
+.emoji-overlay
+  

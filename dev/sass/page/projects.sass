@@ -1,0 +1,44 @@
+.fixed-hero.projects
+  height: 100vh
+  position: fixed
+  width: 100%
+  top: 0
+  left: 0
+  z-index: 4
+  display: flex
+  align-content: center
+  .color-bg
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: 5
+    top: 0
+    left: 0
+    background: #0a0600
+    opacity: .9
+  iframe
+    width: 100%
+    height: 101%
+    top: -1%
+    position: absolute
+    z-index: .1
+      
+  .text
+    position: relative
+    z-index: 10
+    max-width: 700px
+    margin: auto
+    text-align: center
+    @include mobil
+      padding: 0 75px
+    p
+      font-size: 18px
+      @include mobil
+        font-size: 12px
+    a
+      font-size: 24px
+      
+      
+.no-scroll
+  .arrow-down-box
+    opacity: 0

@@ -1,0 +1,113 @@
+@import url(vendor/normalize.css);
+@import url(vendor/flexboxgrid.min.css);
+h1, h2 { line-height: 1.2; }
+
+h3, h4 { line-height: 1.4; }
+
+h5, h6, p { line-height: 1.4; }
+
+h1 { font-size: 5em; letter-spacing: -1px; }
+
+@media (max-width: 599px) { h1 { font-size: 4.5em; } }
+
+h2 { font-size: 5em; letter-spacing: -1px; }
+
+@media (max-width: 599px) { h2 { font-size: 3.5em; } }
+
+h3 { font-size: 3em; }
+
+@media (max-width: 599px) { h3 { font-size: 2.5em; } }
+
+h4 { font-size: 2em; }
+
+@media (max-width: 599px) { h4 { font-size: 2em; } }
+
+h5 { font-size: 1em; }
+
+@media (max-width: 599px) { h5 { font-size: .8em; } }
+
+h6 { font-size: .8em; text-transform: uppercase; letter-spacing: .15em; font-weight: 400; }
+
+p { font-size: 1em; }
+
+.no-js #preloader { display: none !important; }
+
+img { max-width: 100%; }
+
+* { box-sizing: border-box; }
+
+.control { display: block; position: relative; padding-left: 2em; margin-bottom: 1em; cursor: pointer; font-size: 1em; }
+
+.control input { position: absolute; z-index: -1; opacity: 0; }
+
+.control__indicator { position: absolute; top: -2px; left: 0; height: 20px; width: 20px; background: #e6e6e6; }
+
+.control--radio .control__indicator { border-radius: 50%; }
+
+.control:hover input ~ .control__indicator { background: #ccc; }
+
+.control input:focus ~ .control__indicator { background: #ccc; }
+
+.control input:checked ~ .control__indicator { background: #2aa1c0; }
+
+.control:hover input:not([disabled]):checked ~ .control__indicator { background: #0e647d; }
+
+.control input:checked:focus ~ .control__indicator { background: #0e647d; }
+
+.control input:disabled ~ .control__indicator { background: #e6e6e6; opacity: 0.6; pointer-events: none; }
+
+.control__indicator:after { content: ''; position: absolute; display: none; }
+
+.control input:checked ~ .control__indicator:after { display: block; }
+
+.control--checkbox .control__indicator:after { left: 8px; top: 4px; width: 3px; height: 8px; border: solid #fff; border-width: 0 2px 2px 0; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+
+.control--checkbox input:disabled ~ .control__indicator:after { border-color: #7b7b7b; }
+
+.control--radio .control__indicator:after { left: 7px; top: 7px; height: 6px; width: 6px; border-radius: 50%; background: #fff; }
+
+.control--radio input:disabled ~ .control__indicator:after { background: #7b7b7b; }
+
+.select { position: relative; display: inline-block; margin-bottom: 1em; width: 100%; }
+
+.select select { display: inline-block; width: 100%; cursor: pointer; padding: 0.5em 1.5em; outline: 0; border: 0; border-radius: 0; background: #e6e6e6; color: #7b7b7b; appearance: none; -webkit-appearance: none; -moz-appearance: none; }
+
+.select select::-ms-expand { display: none; }
+
+.select select:hover, .select select:focus { color: #000; background: #ccc; }
+
+.select select:disabled { opacity: 0.5; pointer-events: none; }
+
+.select__arrow { position: absolute; top: 14px; right: 1.5em; width: 0; height: 0; pointer-events: none; border-style: solid; border-width: 8px 5px 0 5px; border-color: #7b7b7b transparent transparent transparent; }
+
+.select select:hover ~ .select__arrow, .select select:focus ~ .select__arrow { border-top-color: #000; }
+
+.select select:disabled ~ .select__arrow { border-top-color: #ccc; }
+
+.btn { padding: 0.5em 1.5em; text-decoration: none; font-size: 1em; text-align: center; background: #ececec; color: #000; }
+
+.btn.b-bord { border: 1px solid red; }
+
+.btn.b-big { font-size: 20px; }
+
+.btn.b-small { font-size: .8em; letter-spacing: .15em; text-transform: uppercase; }
+
+.block { display: block; }
+
+.relative { position: relative; }
+
+.hiiden { display: none !important; }
+
+.absolut-full { position: absolute; display: block; width: 100%; height: 100%; top: 0; left: 0; bottom: 0; right: 0; margin: auto; }
+
+.space-100 { height: 100px; display: block; }
+
+body { font-size: 16px; height: 100vh; position: relative; overflow: hidden; background: #000; }
+
+.logo-box { width: 200px; height: 300px; position: absolute; top: 0px; left: 0; right: 0; bottom: 0; margin: auto; z-index: 50; pointer-events: none; }
+
+.logo-box a { display: block; text-decoration: none; color: #999; }
+
+.logo-box a img { width: 100%; }
+
+.logo-box a h2 { margin-top: 50px; font-size: 20px; text-align: center; letter-spacing: 2px; font-weight: 100; }
