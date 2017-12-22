@@ -120,7 +120,7 @@
 		},
 	"\/contact.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
@@ -129,10 +129,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/css\/main.css.map": {
 		"ft": 8192,
@@ -229,11 +229,11 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/index.jade": {
-		"cOD": 0,
+		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
-		"oF": 2,
+		"oF": 0,
 		"oS": 0
 		},
 	"\/dev\/jade\/projects.jade": {
@@ -430,11 +430,11 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/main.css",
-		"oF": 2,
-		"oS": 2,
+		"oAP": "\/dev\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/dev\/sass\/page\/contact.sass": {
@@ -644,7 +644,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1074,6 +1074,16 @@
 		"oAP": "\/media\/images\/gold-talk.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/media\/images\/hnl-logo-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/media\/images\/hnl-logo-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/media\/images\/logo-circle.jpg": {
 		"ft": 16384,
