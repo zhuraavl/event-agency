@@ -181,6 +181,8 @@ img { max-width: 100%; }
 
 .load .top-logo-box, .load .bottom-logo-box { -webkit-transform: translateY(0); transform: translateY(0); }
 
+@media (max-width: 599px) { .load .bottom-logo-box { opacity: 0; } }
+
 @media (max-width: 599px) { .load .top-logo-box { width: 70px; } }
 
 .footer-space { height: 600px; }
@@ -295,7 +297,7 @@ footer.show { opacity: 1; visibility: visible; }
 
 .fixed-hero.contact .text h4 { font-weight: 100; }
 
-@media (max-width: 599px) { .fixed-hero.contact .text { padding: 0 75px; }
+@media (max-width: 599px) { .fixed-hero.contact .text { padding: 0 75px; height: 300px; }
   .fixed-hero.contact .text h4 { font-size: 24px; }
   .fixed-hero.contact .text p { font-size: 12px; } }
 
