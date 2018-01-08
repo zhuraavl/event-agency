@@ -167,6 +167,23 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/dev\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/dev\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dev\/css\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dev\/css\/main.css.map",
+		"oF": 0
+		},
 	"\/dev\/design.md": {
 		"cB": 0,
 		"cS": 0,
