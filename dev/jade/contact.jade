@@ -30,22 +30,14 @@ html(lang='en')
         
       section.form-message
         .container
-          //form
-            input(type='hidden', name='project_name', value='Form Hnl-Events')
-            input(type='hidden', name='admin_email', value='yuriygruda@gmail.com')
-            input(type='hidden', name='form_subject', value='Form Subject')
-            .row
-              .col-md-12
-                p
-                  |Оставьте нам сообщение и мы свяжемся с вами как можно скорее.
-              .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="Имя" name="Name" required='')
-              .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="E-mail" name="E-mail" required='')
-              .col-md-12.col-sm-12.col-xs-12
-                textarea(name="Phone", placeholder="Ваше сообщение")
-                input(type="submit", value="Отправить")
           form
+            .form-message-respond
+              .text
+                img(src='media/images/done.svg')
+                p 
+                  |Ваше сообщение 
+                  br
+                  |отправлено
             input(type='hidden', name='project_name', value='Form Hnl-Events')
             input(type='hidden', name='admin_email', value='yuriygruda@gmail.com')
             input(type='hidden', name='form_subject', value='Form Subject')

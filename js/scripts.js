@@ -303,7 +303,11 @@ function init() {
 }
 
 $(document).ready(function() {
-
+  
+  /*$( "form" ).click(function() {
+    $( this ).toggleClass("done");;
+  }); */
+  
 	//E-mail Ajax Send
 	$("form").submit(function() { //Change
 		var th = $(this);
@@ -312,7 +316,7 @@ $(document).ready(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			th.addClass("done");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
