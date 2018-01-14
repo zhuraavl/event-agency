@@ -726,7 +726,7 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
     .form-message textarea::placeholder {
       color: rgba(255, 255, 255, 0.5); }
-  .form-message input[type=submit] {
+  .form-message input[type=submit], .form-message button {
     display: block;
     width: 200px;
     margin: 1em auto 0;
