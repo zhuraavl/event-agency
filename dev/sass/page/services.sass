@@ -23,17 +23,17 @@
   .text
     position: relative
     z-index: 10
-    max-width: 500px
+    max-width: 700px
     margin: auto
     text-align: center
-    h4
+    h3
       font-weight: 100
-      font-size: 24px
+      margin-top: 0
       @include mobil
-        font-size: 22px
+        font-size: 24px
     p
-      font-size: 14px
-      color: #999
+      font-size: 18px
+      color: #fff
       @include mobil
         font-size: 12px
     a
@@ -89,26 +89,28 @@
     position: relative
     height: 600px
     .top-box
-      height: 100px
-      padding-top: 20px
+      padding: 15px 0
+      height: 50px
       span
         display: block
         text-align: center
         font-size: 12px
         letter-spacing: 5px
         text-transform: uppercase
-    h4
-      font-weight: 100
-      span
-        display: block
-        font-size: 12px
-        letter-spacing: 5px
-        text-transform: uppercase
-        font-weight: 100
+        color: transparent
+        border: bottom 1px solid #fff
+    
     a
       display: block
       margin-bottom: 1em
       font-size: 18px
+      width: 400px
+      margin: auto
+      position: relative
+      margin-bottom: 20px
+      @include medium
+        font-size: 16px
+        width: 100%
     
     .move-box
       position: absolute
@@ -141,3 +143,42 @@
     transform: translate(0%,-40%) !important
   .col-md-6
     border-color: #021900
+  
+  
+  
+  
+.other-servise
+  background: #190000
+  .big-text
+    position: relative
+    height: 600px
+    overflow: hidden
+    width: 100%
+    @include mobil
+      height: 450px
+    .text
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      width: 90%
+      height: 100%
+      background-size: contain
+      background-position: center
+      margin: auto
+      background: #000
+      padding-top: 215px
+      h2
+        font-size: 60px
+        width: 300px
+        margin: auto
+        font-weight: 100
+        font-weight: 1
+        text-align: center
+        color:  #fff
+  .text-box
+    padding-top: 50px
+    a
+      font-size: 24px
+    

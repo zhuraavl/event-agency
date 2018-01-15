@@ -36,7 +36,6 @@ body
   position: relative
   background: #000
   color: #fff
-  line-height: 1.6
   font-family: 'GT America Lite'
   -webkit-font-smoothing: antialiased
   overflow: hidden
@@ -45,6 +44,7 @@ body
 a
   color: $gold
   text-decoration: none
+  line-height: 1.4
   &:hover
     opacity: .8
     
@@ -140,12 +140,11 @@ a.twitter-header
     a
       display: block
       img
-        width: 75px
+        width: 65px
         margin: 1em auto
       span
         display: block
-        font-size: 35px
-        font-weight: 100
+        font-size: 50px
   p
     text-align: center
     font-size: 24px
@@ -248,7 +247,7 @@ a.twitter-header
   align-content: center
   z-index: 3
   .text
-    max-width: 500px
+    max-width: 700px
     margin: auto
     text-align: center
     transition-delay: .5s
@@ -257,9 +256,8 @@ a.twitter-header
     @include mobil
       padding: 0 75px
     p
-      font-size: 14px
+      font-size: 18px
       color: #fff
-      line-height: 1.8
       @include mobil
         font-size: 12px
       &.small
@@ -268,8 +266,12 @@ a.twitter-header
         text-transform: uppercase
         padding: 0
         margin: 2em 0 0
+    h3
+      font-size: 28px
+      font-weight: 100
+      margin-bottom: 35px
     h4
-      font-size: 20px
+      font-size: 18px
       font-weight: 100	
       color: #fff
       @include mobil
@@ -293,19 +295,19 @@ a.twitter-header
     @include mobil
       padding: 0 25px
     p
-      font-size: 14px
-      margin-bottom: 35px
+      font-size: 18px
+      margin-bottom: 50px
     a, span
       display: inline-block
-      font-size: 28px
+      font-size: 42px
       @include mobil
         font-size: 32px
     span
       padding-right: .5em
     h4
-      font-size: 18px
+      font-size: 24px
       font-weight: 100
-      margin-top: 25px
+      margin-top: 55px
       @include mobil
         margin-top: 25px
         font-size: 22px
