@@ -30,18 +30,28 @@ html(lang='en')
         
       section.form-message
         .container
-          form(action="")
+          form
+            .form-message-respond
+              .text
+                img(src='media/images/done.svg')
+                p 
+                  |Your message 
+                  br
+                  |has been sent
+            input(type='hidden', name='project_name', value='Form Hnl-Events')
+            input(type='hidden', name='admin_email', value='info@hnl-events.com')
+            input(type='hidden', name='form_subject', value='Form Hnl-events')
             .row
               .col-md-12
                 p
                   |Leave us a message and we will contact you as soon as possible.
               .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="Name")
+                input(type='text', name='Name', placeholder='Name', required='')
               .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="E-mail")
+                input(type='text', name='E-mail', placeholder='E-mail', required='')
               .col-md-12.col-sm-12.col-xs-12
-                textarea(name="", placeholder="Message")
-                input(type="submit" value="Submit")
+                textarea(name="Message", placeholder="Message")
+                input(type="submit", value="Submit")
       
       section.page-bottom
       
