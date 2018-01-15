@@ -764,6 +764,7 @@ body {
   position: relative;
   background: #000;
   color: #fff;
+  line-height: 1.6;
   font-family: 'GT America Lite';
   -webkit-font-smoothing: antialiased;
   overflow: hidden; }
@@ -983,7 +984,7 @@ a.twitter-header {
     .fixed-hero.main .text p {
       font-size: 14px;
       color: #fff;
-      line-height: 1.4; }
+      line-height: 1.8; }
       @media (max-width: 599px) {
         .fixed-hero.main .text p {
           font-size: 12px; } }
