@@ -1,5 +1,5 @@
-var gulp      = require('gulp'), // Подключаем Gulp
-    sass        = require('gulp-sass'), //Подключаем Sass пакет,
+var gulp = require('gulp'), // Подключаем Gulp
+    sass = require('gulp-sass'), //Подключаем Sass пакет,
     jade = require('gulp-jade'),
     browserSync = require('browser-sync'); // Подключаем Browser Sync
 
@@ -12,7 +12,9 @@ gulp.task('sass', function(){ // Создаем таск Sass
 
 gulp.task('jade', function() {
     return gulp.src('dev/jade/**/*.jade')
-        .pipe(jade()) 
+        .pipe(jade({
+          pretty: true
+        })) 
         .pipe(gulp.dest('./'))
 				.pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 });
