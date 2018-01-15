@@ -1,4 +1,24 @@
 $(document).ready(function(){
+  
+  $("#contact-form").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "../mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+  
+  
+  
+  
    setTimeout(function(){
     $('body').addClass("load");
    }, 700);
@@ -281,3 +301,28 @@ function init() {
     title: 'Snazzy!'
   });
 }
+
+$(document).ready(function() {
+  
+  /*$( "form" ).click(function() {
+    $( this ).toggleClass("done");;
+  }); */
+  
+	//E-mail Ajax Send
+	$("form").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			th.addClass("done");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});

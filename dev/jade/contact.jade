@@ -30,22 +30,32 @@ html(lang='ua')
         
       section.form-message
         .container
-          form(action="")
+          form
+            .form-message-respond
+              .text
+                img(src='media/images/done.svg')
+                p 
+                  |Ваше повідомлення
+                  br
+                  |було відправлене
+            input(type='hidden', name='project_name', value='Form Hnl-Events')
+            input(type='hidden', name='admin_email', value='info@hnl-events.com')
+            input(type='hidden', name='form_subject', value='Form Subject')
             .row
               .col-md-12
                 p
                   |Залиште нам повідомлення і ми зв'яжемося з вами як можна скоріше.
               .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="Ім'я")
+                input(type="text", name="Name", placeholder="Ім'я", required="")
               .col-md-6.col-sm-6.col-xs-12
-                input(type="text" placeholder="E-mail")
+                input(type='text', name='E-mail', placeholder='E-mail', required='')
               .col-md-12.col-sm-12.col-xs-12
-                textarea(name="", placeholder="Ваше повідомлення")
-                input(type="submit" value="Відправити")
+                textarea(name="Message", placeholder="Ваше повідомлення")
+                input(type="submit", value="Відправити")
       
       section.page-bottom
         p 
-          |Ми є 
+          |Ми є в 
           a(href="") Instagram
           |,
           br
