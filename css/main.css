@@ -652,7 +652,7 @@ footer {
     border-color: #021900; }
 
 .other-servise {
-  background: #190c00; }
+  background: #190000; }
   .other-servise .big-text {
     position: relative;
     height: 600px;
@@ -672,9 +672,12 @@ footer {
       background-size: contain;
       background-position: center;
       margin: auto;
-      background: #000; }
+      background: #000;
+      padding-top: 215px; }
       .other-servise .big-text .text h2 {
-        font-size: 120px;
+        font-size: 60px;
+        width: 300px;
+        margin: auto;
         font-weight: 100;
         font-weight: 1;
         text-align: center;
