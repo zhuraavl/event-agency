@@ -536,11 +536,12 @@ footer {
     max-width: 700px;
     margin: auto;
     text-align: center; }
-    .fixed-hero.services .text h3 {
+    .fixed-hero.services .text h4 {
       font-weight: 100;
-      margin-top: 0; }
+      margin-top: 0;
+      font-size: 28px; }
       @media (max-width: 599px) {
-        .fixed-hero.services .text h3 {
+        .fixed-hero.services .text h4 {
           font-size: 24px; } }
     .fixed-hero.services .text p {
       font-size: 18px;
@@ -591,20 +592,23 @@ footer {
         @media (max-width: 599px) {
           .services-item .pic-box .video video {
             transform: translateX(-50.5%); } }
+  .services-item .link-box h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 42px; }
   .services-item .text-box {
     text-align: center;
     position: relative;
     height: 600px; }
     .services-item .text-box .top-box {
-      padding: 15px 0;
-      height: 50px; }
+      padding: 50px 0 35px;
+      height: 120px; }
       .services-item .text-box .top-box span {
         display: block;
         text-align: center;
         font-size: 12px;
         letter-spacing: 5px;
         text-transform: uppercase;
-        color: transparent;
         border: bottom 1px solid #fff; }
     .services-item .text-box a {
       display: block;
@@ -683,7 +687,7 @@ footer {
         text-align: center;
         color: #fff; }
   .other-servise .text-box {
-    padding-top: 50px; }
+    padding-top: 0px; }
     .other-servise .text-box a {
       font-size: 24px; }
 
