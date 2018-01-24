@@ -539,16 +539,16 @@ footer {
     .fixed-hero.services .text h4 {
       font-weight: 100;
       margin-top: 0;
-      font-size: 28px; }
+      font-size: 2em; }
       @media (max-width: 599px) {
         .fixed-hero.services .text h4 {
-          font-size: 24px; } }
+          font-size: 1.2em; } }
     .fixed-hero.services .text p {
       font-size: 18px;
       color: #fff; }
       @media (max-width: 599px) {
         .fixed-hero.services .text p {
-          font-size: 12px; } }
+          font-size: 1.8em; } }
     .fixed-hero.services .text a {
       font-size: 24px; }
 
@@ -686,6 +686,9 @@ footer {
         font-weight: 1;
         text-align: center;
         color: #fff; }
+        @media (max-width: 599px) {
+          .other-servise .big-text .text h2 {
+            font-size: 30px; } }
   .other-servise .text-box {
     padding-top: 0px; }
     .other-servise .text-box a {
@@ -1031,16 +1034,20 @@ a.twitter-header {
         padding: 0;
         margin: 2em 0 0; }
     .fixed-hero.main .text h3 {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 100;
       margin-bottom: 35px; }
+      @media (max-width: 599px) {
+        .fixed-hero.main .text h3 {
+          font-size: 13px;
+          padding-top: 20px; } }
     .fixed-hero.main .text h4 {
       font-size: 18px;
       font-weight: 100;
       color: #fff; }
       @media (max-width: 599px) {
         .fixed-hero.main .text h4 {
-          font-size: 16px; } }
+          font-size: 13px; } }
 
 .load .fixed-hero.main .text {
   transform: scale(1) translateY(0); }
