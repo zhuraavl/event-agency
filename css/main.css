@@ -1053,11 +1053,14 @@ a.twitter-header {
       .service-main .col-md-12 {
         padding: 0 25px; } }
     .service-main .col-md-12 p {
-      font-size: 18px;
-      margin-bottom: 50px; }
+      font-size: 14px;
+      margin-bottom: 100px;
+      margin-top: 75px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
     .service-main .col-md-12 a, .service-main .col-md-12 span {
       display: inline-block;
-      font-size: 42px; }
+      font-size: 52px; }
       @media (max-width: 599px) {
         .service-main .col-md-12 a, .service-main .col-md-12 span {
           font-size: 32px; } }

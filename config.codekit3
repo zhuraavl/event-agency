@@ -7,17 +7,21 @@
 		"uuidString": "1FC56B84-2F53-43E5-AB68-4C5F7652C4F1"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/animoji-alien-emojipedia-2.psd": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/animoji-alien-emojipedia-2.psd",
 		"oF": 0
 		},
 	"\/animoji-unicorn-emojipedia.psd": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/animoji-unicorn-emojipedia.psd",
@@ -34,7 +38,6 @@
 		"oS": 3
 		},
 	"\/back\/css\/main.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/back\/css\/main.css.map",
@@ -61,7 +64,6 @@
 		"oS": 3
 		},
 	"\/back\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/back\/index.html",
@@ -117,14 +119,12 @@
 		"opt": 0
 		},
 	"\/clients.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/clients.html",
 		"oF": 0
 		},
 	"\/contact.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact.html",
@@ -141,7 +141,6 @@
 		"oS": 3
 		},
 	"\/css\/main.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
@@ -167,11 +166,27 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/dev\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/dev\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dev\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dev\/css\/main.css.map",
+		"oF": 0
+		},
 	"\/dev\/design.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -186,10 +201,10 @@
 		"uCM": 0
 		},
 	"\/dev\/idea.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -204,7 +219,6 @@
 		"uCM": 0
 		},
 	"\/dev\/jade\/clients.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -213,7 +227,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/contact.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -222,7 +235,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/includes\/footer.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
@@ -231,7 +243,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/includes\/header.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
@@ -240,7 +251,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/index.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -249,7 +259,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/projects.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -258,7 +267,6 @@
 		"oS": 0
 		},
 	"\/dev\/jade\/services.jade": {
-		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -267,10 +275,10 @@
 		"oS": 0
 		},
 	"\/dev\/plugin.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -285,112 +293,96 @@
 		"uCM": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_color.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_color.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_media.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_media.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_space.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_space.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_typography.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_typography.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/464cbce21bec6d37c4f01ad49e71eb19b4e217ef\/main.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dev\/sass\/.sass-cache\/464cbce21bec6d37c4f01ad49e71eb19b4e217ef\/main.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_button.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_button.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_buttons.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_buttons.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_color.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_color.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_control.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_control.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_css-class.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_css-class.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_media.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_media.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_space.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_space.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_typography.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_typography.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_utils.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/dev\/sass\/.sass-cache\/aaab49b0bef03355b9c40a18542b482d5041718b\/_utils.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/f25b21f948b7675bc1f4919ebf780b5d48b12ad6\/concept.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dev\/sass\/.sass-cache\/f25b21f948b7675bc1f4919ebf780b5d48b12ad6\/concept.sassc",
 		"oF": 0
 		},
 	"\/dev\/sass\/.sass-cache\/f25b21f948b7675bc1f4919ebf780b5d48b12ad6\/main.sassc": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dev\/sass\/.sass-cache\/f25b21f948b7675bc1f4919ebf780b5d48b12ad6\/main.sassc",
@@ -407,7 +399,6 @@
 		"oS": 3
 		},
 	"\/dev\/sass\/css\/footer.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dev\/sass\/css\/footer.css.map",
@@ -424,7 +415,6 @@
 		"oS": 3
 		},
 	"\/dev\/sass\/css\/services.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dev\/sass\/css\/services.css.map",
@@ -613,10 +603,10 @@
 		"uL": 1
 		},
 	"\/dev\/schema.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -674,18 +664,28 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/IMG_1640.JPG.jpg": {
-		"ft": 16384,
-		"iS": 112726,
+	"\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/IMG_1640.JPG.jpg",
+		"oAP": "\/min\/gulpfile-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 1,
+		"tS": 0
+		},
+	"\/includes\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/footer.html",
+		"oF": 0
+		},
+	"\/includes\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/header.html",
+		"oF": 0
 		},
 	"\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -693,7 +693,6 @@
 		},
 	"\/js\/app.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/app-min.js",
@@ -703,7 +702,6 @@
 		},
 	"\/js\/lib\/anime.min.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/lib\/min\/anime.min-min.js",
@@ -713,7 +711,6 @@
 		},
 	"\/js\/lib\/barba.min.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/lib\/min\/barba.min-min.js",
@@ -723,7 +720,6 @@
 		},
 	"\/js\/lib\/scrollmagic.min.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/lib\/min\/scrollmagic.min-min.js",
@@ -733,7 +729,6 @@
 		},
 	"\/js\/lib\/scrollMonitor.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/lib\/min\/scrollMonitor-min.js",
@@ -743,7 +738,6 @@
 		},
 	"\/js\/min\/app-min.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/app-min-min.js",
@@ -753,7 +747,6 @@
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
-		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/scripts-min.js",
@@ -761,8 +754,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/mail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mail.php",
+		"oF": 0
+		},
 	"\/media\/fonts\/demo.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/demo.html",
@@ -779,42 +777,36 @@
 		"oS": 3
 		},
 	"\/media\/fonts\/GTAmerica-Light.eot": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Light.eot",
 		"oF": 0
 		},
 	"\/media\/fonts\/GTAmerica-Light.ttf": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Light.ttf",
 		"oF": 0
 		},
 	"\/media\/fonts\/GTAmerica-Light.woff": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Light.woff",
 		"oF": 0
 		},
 	"\/media\/fonts\/GTAmerica-Medium.eot": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Medium.eot",
 		"oF": 0
 		},
 	"\/media\/fonts\/GTAmerica-Medium.ttf": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Medium.ttf",
 		"oF": 0
 		},
 	"\/media\/fonts\/GTAmerica-Medium.woff": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/fonts\/GTAmerica-Medium.woff",
@@ -1240,98 +1232,96 @@
 		"opt": 0
 		},
 	"\/media\/video\/1.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/1.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/2.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/2.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/3.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/3.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/4.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/4.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/5.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/5.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/6.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/6.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/7.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/7.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/8.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/8.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/9.mp4": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/9.mp4",
 		"oF": 0
 		},
 	"\/media\/video\/video1.mov": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/video1.mov",
 		"oF": 0
 		},
 	"\/media\/video\/video2.mov": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/video\/video2.mov",
 		"oF": 0
 		},
+	"\/modx-mail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modx-mail.php",
+		"oF": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
 	"\/projects.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/projects.html",
 		"oF": 0
 		},
 	"\/services.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/services.html",
 		"oF": 0
 		},
 	"\/styleguide.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/styleguide.html",
@@ -1750,10 +1740,6 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
-		"array-bracket-newline": {
-			"active": 0,
-			"optionString": "{'multiline': true, 'minItems': null}"
-			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1761,10 +1747,6 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
-			},
-		"array-element-newline": {
-			"active": 0,
-			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1862,10 +1844,6 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
-		"for-direction": {
-			"active": 0,
-			"optionString": ""
-			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1882,17 +1860,9 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
-		"function-paren-newline": {
-			"active": 0,
-			"optionString": "'multiline'"
-			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
-			},
-		"getter-return": {
-			"active": 0,
-			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1950,9 +1920,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-between-class-members": {
+		"lines-around-directive": {
 			"active": 0,
-			"optionString": "'always', {exceptAfterSingleLine: false}"
+			"optionString": "{'before': 'always', 'after': 'always'}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1982,10 +1952,6 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
-		"multiline-comment-style": {
-			"active": 0,
-			"optionString": "'starred-block'"
-			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1995,6 +1961,14 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2017,10 +1991,6 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
-			},
-		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2566,10 +2536,6 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
-		"padding-line-between-statements": {
-			"active": 0,
-			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
-			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2638,10 +2604,6 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
-		"semi-style": {
-			"active": 0,
-			"optionString": "'last'"
-			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2681,10 +2643,6 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
-			},
-		"switch-colon-spacing": {
-			"active": 0,
-			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -3098,8 +3056,7 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1,
-		"transpilerStyle": 1
+		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -3132,7 +3089,6 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3174,8 +3130,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3207,13 +3162,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
-		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3222,8 +3177,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3243,8 +3197,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
 		"compileDebug": 1,
-		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"outputStyle": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3272,8 +3225,7 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"railsCompatible": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3324,7 +3276,6 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
-	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
