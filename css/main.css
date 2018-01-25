@@ -1069,7 +1069,7 @@ a.twitter-header {
       margin-bottom: 50px; }
     .service-main .col-md-12 a, .service-main .col-md-12 span {
       display: inline-block;
-      font-size: 42px; }
+      font-size: 52px; }
       @media (max-width: 599px) {
         .service-main .col-md-12 a, .service-main .col-md-12 span {
           font-size: 32px; } }
@@ -1083,6 +1083,15 @@ a.twitter-header {
         .service-main .col-md-12 h4 {
           margin-top: 25px;
           font-size: 22px; } }
+    .service-main .col-md-12 .events-text p {
+      font-size: 14px;
+      margin-bottom: 100px;
+      margin-top: 75px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      @media (max-width: 599px) {
+        .service-main .col-md-12 .events-text p {
+          font-size: 12px; } }
   .service-main .row {
     padding-bottom: 50px; }
   .service-main .titles {
