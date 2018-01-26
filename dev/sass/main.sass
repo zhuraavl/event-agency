@@ -269,6 +269,8 @@ a.twitter-header
     h3
       font-size: 28px
       font-weight: 100
+      @include mobil
+        font-size: 22px
     h4
       font-size: 24px
       font-weight: 100	
@@ -414,7 +416,7 @@ a.twitter-header
           
         
     .central-block
-      padding-top: 50px
+      padding-top: 200px
       text-align: center
       font-size: 22px
       img
@@ -432,8 +434,8 @@ a.twitter-header
         &:active + .emoji-overlay
           opacity: 1
           visibility: visible
-  
-    
+      @include mobil
+        padding-top: 50px
         
         
         

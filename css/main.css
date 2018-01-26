@@ -1029,6 +1029,9 @@ a.twitter-header {
     .fixed-hero.main .text h3 {
       font-size: 28px;
       font-weight: 100; }
+      @media (max-width: 599px) {
+        .fixed-hero.main .text h3 {
+          font-size: 22px; } }
     .fixed-hero.main .text h4 {
       font-size: 24px;
       font-weight: 100;
@@ -1165,7 +1168,7 @@ a.twitter-header {
       .service-main .stories .story-pic.first:before {
         background: #999; }
     .service-main .stories .central-block {
-      padding-top: 50px;
+      padding-top: 200px;
       text-align: center;
       font-size: 22px; }
       .service-main .stories .central-block img {
@@ -1183,6 +1186,9 @@ a.twitter-header {
         .service-main .stories .central-block img:active + .emoji-overlay {
           opacity: 1;
           visibility: visible; }
+      @media (max-width: 599px) {
+        .service-main .stories .central-block {
+          padding-top: 50px; } }
 
 .no-video .video-container video, .touch .video-container video {
   display: none; }
