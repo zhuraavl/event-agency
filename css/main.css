@@ -721,11 +721,10 @@ footer {
     text-align: center; }
     @media (max-width: 599px) {
       .fixed-hero.contact .text {
-        padding: 0 75px; }
+        padding: 0 75px;
+        padding-bottom: 140px; }
         .fixed-hero.contact .text h4 {
-          font-size: 24px; }
-        .fixed-hero.contact .text p {
-          font-size: 12px; } }
+          font-size: 24px; } }
 
 .form-message {
   padding: 100px 0;
@@ -1034,7 +1033,7 @@ a.twitter-header {
         padding: 0;
         margin: 2em 0 0; }
     .fixed-hero.main .text h3 {
-      font-size: 24px;
+      font-size: 23px;
       font-weight: 100;
       margin-bottom: 35px; }
       @media (max-width: 599px) {
@@ -1072,7 +1071,7 @@ a.twitter-header {
       font-size: 42px; }
       @media (max-width: 599px) {
         .service-main .col-md-12 a, .service-main .col-md-12 span {
-          font-size: 32px; } }
+          font-size: 21px; } }
     .service-main .col-md-12 span {
       padding-right: .5em; }
     .service-main .col-md-12 h4 {
@@ -1084,11 +1083,12 @@ a.twitter-header {
           margin-top: 25px;
           font-size: 22px; } }
     .service-main .col-md-12 .events-text p {
-      font-size: 14px;
+      font-size: 21px;
       margin-bottom: 100px;
       margin-top: 75px;
       text-transform: uppercase;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      color: #c6aa78; }
       @media (max-width: 599px) {
         .service-main .col-md-12 .events-text p {
           font-size: 12px; } }
@@ -1182,7 +1182,7 @@ a.twitter-header {
       .service-main .stories .story-pic.first:before {
         background: #999; }
     .service-main .stories .central-block {
-      padding-top: 50px;
+      padding-top: 200px;
       text-align: center;
       font-size: 22px; }
       .service-main .stories .central-block img {
@@ -1200,6 +1200,9 @@ a.twitter-header {
         .service-main .stories .central-block img:active + .emoji-overlay {
           opacity: 1;
           visibility: visible; }
+      @media (max-width: 599px) {
+        .service-main .stories .central-block {
+          padding-top: 50px; } }
 
 .no-video .video-container video, .touch .video-container video {
   display: none; }
