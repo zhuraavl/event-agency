@@ -682,6 +682,10 @@ footer {
         font-weight: 1;
         text-align: center;
         color: #fff; }
+        @media (max-width: 599px) {
+          .other-servise .big-text .text h2 {
+            font-size: 40px;
+            width: 100%; } }
   .other-servise .text-box {
     padding-top: 50px; }
     .other-servise .text-box a {
@@ -1031,7 +1035,7 @@ a.twitter-header {
       font-weight: 100; }
       @media (max-width: 599px) {
         .fixed-hero.main .text h3 {
-          font-size: 22px; } }
+          font-size: 17px; } }
     .fixed-hero.main .text h4 {
       font-size: 24px;
       font-weight: 100;
