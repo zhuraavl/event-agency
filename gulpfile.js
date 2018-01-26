@@ -32,5 +32,5 @@ gulp.task('watch', ['browser-sync', 'sass', 'jade'], function() {
     gulp.watch('dev/sass/**/*.sass', ['sass']); // Наблюдение за sass файлами в папке sass
     gulp.watch('*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
     gulp.watch('js/**/*.js', browserSync.reload); // Наблюдение за JS файлами в папке js
-    gulp.watch('dev/jade/*.jade', ['jade']);
+    gulp.watch('dev/jade/**/*.jade', ['jade']);
 });
