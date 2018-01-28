@@ -542,6 +542,8 @@ footer {
       @media (max-width: 599px) {
         .fixed-hero.services .text h3 {
           font-size: 24px; } }
+    .fixed-hero.services .text h4 {
+      font-size: 1.1em; }
     .fixed-hero.services .text p {
       font-size: 18px;
       color: #fff; }
@@ -689,7 +691,7 @@ footer {
   .other-servise .text-box {
     padding-top: 50px; }
     .other-servise .text-box a {
-      font-size: 24px; }
+      font-size: 18px; }
 
 .fixed-hero.contact {
   height: 100vh;
@@ -718,7 +720,8 @@ footer {
     text-align: center; }
     @media (max-width: 599px) {
       .fixed-hero.contact .text {
-        padding: 0 75px; }
+        padding: 0 75px;
+        padding-bottom: 140px; }
         .fixed-hero.contact .text h4 {
           font-size: 24px; }
         .fixed-hero.contact .text p {
