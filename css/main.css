@@ -1038,8 +1038,8 @@ a.twitter-header {
       margin-bottom: 35px; }
       @media (max-width: 599px) {
         .fixed-hero.main .text h3 {
-          font-size: 16px;
-          padding-top: 20px; } }
+          font-size: 15px;
+          padding-top: 55px; } }
     .fixed-hero.main .text h4 {
       font-size: 18px;
       font-weight: 100;
