@@ -14,13 +14,19 @@ footer
   opacity: 0
   visibility: hidden
   @include mobil
-    height: 100vh
+    height: auto
+    padding-bottom: 50px
   p
     font-size: 18px
     @include mobil
-      text-align: left !important
       padding: 0px 25px
-      font-size: 12px
+      font-size: 14px
+      text-align: center
+  .center-box
+    p
+      margin: 40px
+      @include mobil
+        margin: 10px 0
   #map
     height: 500px
     width: 100%

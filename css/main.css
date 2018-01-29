@@ -434,14 +434,20 @@ footer {
   visibility: hidden; }
   @media (max-width: 599px) {
     footer {
-      height: 100vh; } }
+      height: auto;
+      padding-bottom: 50px; } }
   footer p {
     font-size: 18px; }
     @media (max-width: 599px) {
       footer p {
-        text-align: left !important;
         padding: 0px 25px;
-        font-size: 12px; } }
+        font-size: 14px;
+        text-align: center; } }
+  footer .center-box p {
+    margin: 40px; }
+    @media (max-width: 599px) {
+      footer .center-box p {
+        margin: 10px 0; } }
   footer #map {
     height: 500px;
     width: 100%;
