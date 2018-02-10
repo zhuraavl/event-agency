@@ -73,15 +73,14 @@ html(lang='en')
                 a(href="") Место - поиск, букинг и размещение
                 a(href="") Пакеты представительских услуг
                 a(href="") Размещение команд, игроков и персонала
-                
-                
-            .col-md-6.col-sm-6.col-xs-12
-              .pic-box
-                .video
-                  video(autoplay="" loop="")
-                    source(src='media/video/9.mp4', type='video/mp4')
-                    | Your browser does not support the video tag. I suggest you upgrade your browser.
-                .pic(style="background-image: url(media/images/14.jpg)")
+            
+            .col-md-6.col-sm-6.col-xs-12.pic-box
+              .video
+                video(autoplay="" loop="")
+                  source(src='media/video/9.mp4', type='video/mp4')
+                  | Your browser does not support the video tag. I suggest you upgrade your browser.
+              .pic(style="background-image: url(media/images/music-preload.jpg)")  
+            
                 
       section.services-item.three-bg
         .container-fluid
@@ -130,14 +129,14 @@ html(lang='en')
                   video(autoplay="" loop="")
                     source(src='media/video/art-festival.mp4', type='video/mp4')
                     | Your browser does not support the video tag. I suggest you upgrade your browser.
-                .pic(style="background-image: url(media/images/art-preload.jpg)")
+                .pic(style="background-image: url(media/images/art-preload.jpg) background-size: cover;")
                 
       section.services-item.other-servise
         .container-fluid
           .row
             .col-md-6.col-sm-6.col-xs-12
               .big-text
-                .text
+                .text(style="background-image: url(media/images/other-services.jpg); background-size: cover;")
                   h2 Другие сервисы
             .col-md-6.col-sm-6.col-xs-12.text-box
               .top-box
@@ -168,10 +167,10 @@ html(lang='en')
           |  и 
           a(href="https://www.pinterest.com/hnlevents/" target="_blank") Pinterest
         .pic-section
-          a.pic(href="https://www.instagram.com/hnl_events_/" style="background-image: url(media/images/bottom/1.jpg)" target="_blank")
-          a.pic(href="https://www.facebook.com/EventsHnL/" style="background-image: url(media/images/bottom/2.jpg)" target="_blank")
-          a.pic(href="https://www.instagram.com/hnl_events_/" style="background-image: url(media/images/16.jpg)")
           a.pic(href="https://www.pinterest.com/hnlevents/" style="background-image: url(media/images/bottom/4.jpg)" target="_blank")
+          a.pic(href="https://www.instagram.com/hnl_events_/" style="background-image: url(media/images/16.jpg)")
+          a.pic(href="https://www.facebook.com/EventsHnL/" style="background-image: url(media/images/bottom/2.jpg)" target="_blank")
+          a.pic(href="https://www.instagram.com/hnl_events_/" style="background-image: url(media/images/bottom/1.jpg)" target="_blank")
           a.pic(href="https://www.instagram.com/hnl_events_/" style="background-image: url(media/images/bottom/5.jpg)" target="_blank")
             
       
